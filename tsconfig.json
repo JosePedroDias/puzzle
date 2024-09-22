@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "sourceMap": true,
+      "removeComments": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "target": "ES2015",
+      "rootDir": "src",
+      "outDir": "dist",
+      "lib": [
+        "ES2017",
+        "DOM",
+      ],
+      "types" : []
+    },
+    "include": ["**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
